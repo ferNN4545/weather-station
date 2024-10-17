@@ -2,11 +2,6 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=c,python
 
 
-# Ignorar archivos específicos
-api/crud.py
-api/get_arduino_data.py
-arduino_sketch/dht11_19092024.ino
-
 
 ### C ###
 # Prerequisites
