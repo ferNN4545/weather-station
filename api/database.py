@@ -18,21 +18,13 @@ users_model ='''
     CREATE TABLE IF NOT EXISTS users (
   id integer PRIMARY KEY,
   username TEXT NOT NULL,
-<<<<<<< HEAD
   role INTWGER NOT NULL DEFAULT 1,
   email TEXT NOT NULL,
   password TEXT NOT NULL,
   status BOOLEAN DEFAULT TRUE,
   created_at TIMESTAMP DEFAULT (datetime('now','localtime')),
   update_at TIMESTAMP DEFAULT (datetime('now','localtime')),
-=======
-  role TEXT NOT NULL,
-  email TEXT NOT NULL,
-  password TEXT NOT NULL,
-  status BOOLEAN DEFAULT TRUE,
-  created_at TIMESTAMP DEFAULT (datatime('now','localtime')),
-  update_at TIMESTAMP DEFAULT (datatime('now','localtime')),
-  deleted_at NULL
+ deleted_at NULL
   )
 
 

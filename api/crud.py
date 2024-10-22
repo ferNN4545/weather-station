@@ -7,16 +7,9 @@ D => Delete (DELETE)
 UPDATE AND DELETE NEED WJERE CLAUSE*
 
 '''
-'''
-C => Create (INSERT INTO)
-R => Read (SELECT)
-U => Update (UPDATE)
-D => Delete (DELETE)
 
-UPDATE AND DELETE NEED WJERE CLAUSE*
 
-'''
-<<<<<<< HEAD
+
 from database import con, cur
 import os
 
