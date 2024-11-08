@@ -26,10 +26,19 @@ while True:
     
 
     if data:
-        temperature, humidity = data.split(",")
+        print(data)
+        #temperature, humidity = data.split(",")
         
-        print(f"Temperature: {temperature}°C")
-        print(f"Humidity: {humidity}%")
+        #print(f"Temperature: {temperature}°C")
+        #print(f"Humidity: {humidity}%")
+        
+        
+        
+        #Here INSERT INTO
+        
+        #1. Create a new model data called test_data
+        #Fields: id, temp, hum, created-at
+        #2. Create a method
         
     time.sleep(1)
           
